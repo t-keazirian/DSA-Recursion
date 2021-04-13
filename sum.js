@@ -7,7 +7,7 @@ function sum(array) {
   return {result: sum, ticks};
 }
 
-// console.log(sum([1, 2, 3]));
+// console.log(sum([1, 2, 3, 4, 5, 6]));
 
 function getRandomItem(array) {
   let ticks = 0;
@@ -20,7 +20,7 @@ function getRandomItem(array) {
   };
 }
 
-// console.log(getRandomItem([1,2,3]));
+console.log(getRandomItem([1,2,3, 4, 5, 6]));
 
 function howManyLessThanNitems(arr, n) {
   let ticks = 0;
@@ -130,4 +130,4 @@ function countTriangle(layers) {
   };
 }
 
-console.log(countTriangle(2));
+// console.log(countTriangle(2));

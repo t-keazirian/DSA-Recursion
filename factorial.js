@@ -5,12 +5,12 @@ For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
 */
 
 const factorial = function (n) {
-	if (n === 1) {
-		return n;
+	if (n === 1 || n === 0) {
+		return 1;
 	}
 	return n * factorial(n - 1);
 };
 
-console.log(factorial(5));
+console.log(factorial(4));
 
 

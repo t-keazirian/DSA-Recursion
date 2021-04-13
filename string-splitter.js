@@ -15,3 +15,5 @@ const stringSplitter = function(string) {
 }
 
 console.log(stringSplitter('02/20/2020'));
+
+// not complete
