@@ -1,7 +1,9 @@
 /*
+
+DONE
+
 Write a function that reverses a string. 
 Take a string as input, reverse the string, and return the new string.
-use .split() and .join()
 */
 
 const stringReverse = function (string) {

@@ -1,4 +1,7 @@
 /*
+
+DONE
+
 Write a recursive function that counts how many sheep jump over the fence. 
 Your program should take a number as input. 
 That number should be the number of sheep you have. 
